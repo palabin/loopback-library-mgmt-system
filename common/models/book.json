@@ -1,0 +1,51 @@
+{
+  "name": "Book",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "ISBN": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "penaltyDay": {
+      "type": "string"
+    },
+    "penaltyDamage": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "dateOfBorrowed": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "publisher": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
